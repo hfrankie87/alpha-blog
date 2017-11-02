@@ -1,1 +1,77 @@
 @import "bootstrap";
+
+#logo {
+  float: left;
+  font-size: 1.87em;
+  color: green;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+    color: green;
+    text-decoration: none;
+}
+
+.center{
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('world-our-hands-map-painted-43575667.jpg');
+  background-size: cover;
+  height: 550px;
+}
+
+articles {
+    width: 320px;
+    border: 5px solid gray;
+    margin: 0;
+}
+
+li {
+  padding: 25px;
+  letter-spacing: 2px;
+}
+
+.jumbotron h1 {
+  color: #33ccff;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  font-size: 3.1;
+}
+
+.btn-xlarge {
+  font-size: -1em;
+  background-color: green;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+foort ul li {
+  float: left;
+  margin-left: 15px;
+}
+  
+  
