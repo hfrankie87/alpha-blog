@@ -1,18 +1,20 @@
+$navbar-default-bg:  #b3ecff;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-#logo {
+#logo{
   float: left;
-  font-size: 1.87em;
-  color: green;
+  font-size: 1.7em;
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: -1px;
   font-weight: bold;
 }
 
 #logo:hover {
-    color: green;
-    text-decoration: none;
+  color:#ffa366;
+  text-decoration: none;
 }
 
 .center{
@@ -22,7 +24,7 @@
 .jumbotron {
   background-image: asset-url('world-our-hands-map-painted-43575667.jpg');
   background-size: cover;
-  height: 550px;
+  height: 750px;
 }
 
 articles {
@@ -37,7 +39,7 @@ li {
 }
 
 .jumbotron h1 {
-  color: #33ccff;
+  color: #fff;
   text-align: center;
   margin-bottom: 30px;
   letter-spacing: -1px;
@@ -46,8 +48,8 @@ li {
 }
 
 .btn-xlarge {
-  font-size: -1em;
-  background-color: green;
+  font-size: -1.0em;
+  background-color: #ffe6ff;
 }
 
 footer {
